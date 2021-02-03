@@ -30,6 +30,9 @@ with open("C:/Users/RICHARD.DALLMAN/Desktop/DevOpsAcademy/Module1/Workshop//calc
         elif operator == '+':
             result += (numberOne + numnberTwo)
             print(numberOne + numnberTwo )
+        elif operator == '%':
+            result += (numberOne % numnberTwo)
+            print(numberOne % numnberTwo)
         elif operator == "^":
             result += (numberOne ^ numnberTwo)
             print(numberOne ^ numnberTwo)
